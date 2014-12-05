@@ -1,0 +1,97 @@
+<%
+  var  textH1  = '#888888',
+  	   innerBg  = '#ECEEEF';
+%>
+<%
+  function borderRadius(radius)  {
+    return  {
+      '-webkit-border-radius': radius,
+      '-moz-border-radius': radius,
+      '-ms-border-radius': radius,
+      '-o-border-radius': radius,
+      'border-radius': radius
+    };
+  };
+%>
+<% var content = { 
+		'margin-top': '3em', 
+		'margin-bottom': '3em', 
+		'text-align': 'center'
+	}; 
+%>
+
+.content {
+	<%= jass.p(content); %>
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.inner {
+	margin: 2em auto;
+	padding: 5px 50px 15px;
+	background: <%= innerBg %>;
+	color: <%= textH1 %>;
+	<%= jass.p( borderRadius('10px') ); %>
+}
+h1 {
+	margin: 1em auto;
+	text-align: center;	
+	height: 22px;	
+}
+h1 span {
+	font-size: 1em;	
+	font-weight: bolder;
+	padding: 0 20px;
+	color: <%= textH1 %>;
+	background: transparent;	
+}
+p {
+	padding: 2px 1em 1em;
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	text-indent: 0.6em;
+	text-align: left;
+	word-wrap: break-word; 
+}
+p + p {
+	margin-top: -10px;
+}
+	
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile.content {
+	margin-top: 1em;
+}
+.mobile h1 {
+	margin: 2em auto;
+	height: 42px;
+}
+.mobile span {
+	font-size: 2em;
+}
+.mobile p {
+	font-size: 3.2em;
+	line-height: 1.4em;	
+}
+
+/* =======================================
+   SET DIFFERENT SCREEN
+   ======================================= */
+
+@media screen and (max-width: 1087px){
+  .content { 
+    margin-top: 80px !important; 
+    margin-bottom: 0px !important;
+  } 
+}
+@media screen and (max-width: 820px){
+  .Guide .content { 
+    margin-top: 200px !important; 
+  } 
+  .Content .content { 
+    margin-top: 50px !important; 
+  }
+}

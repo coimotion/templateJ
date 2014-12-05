@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+	<title><%=ctx.title%></title>
+	<meta name="description" content="<%ctx.description%>" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--Begin FACEBOOK-->
+  <meta property="og:title" content="<%=ctx.title%>" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="www.coservjs.org" />
+  <meta property="og:description" content="<%ctx.description%>" />
+  <meta property="og:image" content="http://www.coservjs.org/index/img/xs_logo.jpg" />
+  <meta property="og:site_name" content="coServ" />
+  <meta property="fb:admins" content="chloe" />
+  <meta property="fb:app_id" content="" />
+  <!-- End FACEBOOK -->
+
+  	<link rel="shortcut icon" href="../../index/img/favicon.ico">
+	<% includeCss(); %>
+	<% includeJs(); %>
+    <!--
+    <link rel="stylesheet" type="text/css" href="$csFile">
+    <script type="text/javascript" src="$jsFile"></script>
+    -->
+
+  <style type="text/css">
+  	<% css(); %>
+    #pgHead, #pgFooter, #pgContainer{ overflow-x: hidden; }
+  </style>
+  <script type="text/javascript">
+  	<!--
+  	<% js(); %>
+  	$(document).ready(function() {
+		$.ajaxSetup ({
+    		// Disable caching of AJAX responses
+    		cache: false
+		});
+  		__.initPage();
+  	});
+  	-->
+  </script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-17804586-14', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+  <!-- 外掛元件 -->  
+  <script type="text/javascript" src="/shared/snippet/jquery.snippet.js"></script>  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $("pre").snippet("pascal");   
+    });
+  </script>  
+  <link type="text/css" rel="stylesheet" href="/shared/snippet/jquery.snippet.css">
+  <!-- 外掛元件/ -->
+  </head>
+  <body>
+  	<div id="pgContainer">      
+    	  <div id="pgHead"><% region('./head'); %></div>
+        <div id="pgContent"><% block(); %></div>
+        <div id="pgFooter"><% region('./footer'); %></div>  		
+  	</div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<%
+  var  mainTitle = '#202d33',
+       subTitle  = '#707B82',
+       primary   = '#2EA0D1',
+       black     = '#000000',
+       inverse   = '#ffffff',       
+       dot       = '#333333',
+       docText   = '#4A4A4A',
+       docBg     = '#f5f5f5',
+       codeText  = '#666666',              
+       aLink      = '#3067A5',       
+       type      = '#4D4D4D',       
+       subhead   = '#6d6d6d',
+       timeText  = '#aaaaaa',
+       sideNavBg = '#d9d9d9',
+       sendBtn   = '#00ADEE',
+       formBg    = '#eeeeee',
+       textH1    = '#888888',
+       colorEC   = '#innerBg';
+               
+%>
+
+<%
+  function borderRadius(radius)  {
+    return  {
+      '-webkit-border-radius': radius,
+      '-moz-border-radius': radius,
+      '-ms-border-radius': radius,
+      '-o-border-radius': radius,
+      'border-radius': radius
+    };
+  };
+%>
+<%
+  function borderBottom(value)  {
+    return  {
+      '-webkit-border-bottom': value,
+      '-moz-border-bottom': value,
+      '-ms-border-bottom': value,
+      '-o-border-bottom': value,
+      'border-bottom': value
+    };
+  };
+%>
+<%
+  function transitionDuration(duration)  {
+    return  {
+      '-webkit-transition-duration': duration,
+      '-moz-transition-duration': duration,
+      '-o-transition-duration': duration,
+      '-ms-transition-duration': duration,
+      'transition-duration': duration
+    };
+  };
+%>

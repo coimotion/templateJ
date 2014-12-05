@@ -1,0 +1,10 @@
+{
+    "/banner"   : {"id": "no"},
+    "/content"  : {"id": "no"},
+    "/doc"      : {"id": "no"},
+    "/docList"  : {"id": "no"},
+    "/form"     : {"id": "no"},
+    "/guide"    : {"id": "no"},
+    "/news"     : {"id": "no"},
+    "/manage"   : {"id": "no"}
+}

@@ -1,0 +1,141 @@
+<%
+  var  inverse   = '#ffffff',
+       docBg     = '#f5f5f5', 
+       sideNavBg = '#d9d9d9',
+       type      = '#4D4D4D',
+       primary   = '#2EA0D1',
+       subhead   = '#6d6d6d',
+       timeText  = '#aaaaaa';
+%>
+<%
+  function borderRadius(radius)  {
+    return  {
+      '-webkit-border-radius': radius,
+      '-moz-border-radius': radius,
+      '-ms-border-radius': radius,
+      '-o-border-radius': radius,
+      'border-radius': radius
+    };
+  };
+%>
+<%
+  function borderBottom(value)  {
+    return  {
+      '-webkit-border-bottom': value,
+      '-moz-border-bottom': value,
+      '-ms-border-bottom': value,
+      '-o-border-bottom': value,
+      'border-bottom': value
+    };
+  };
+%>
+
+
+.typeside {
+  width: 230px;  
+  margin: -55px 0 0;  
+  padding: 0 20px;     
+  background: <%= docBg %>; 
+  position: absolute;
+  right: 0px; 
+  top: 0px;
+  float: right;
+  z-index: 999;
+}
+.sideNav {   
+  <%= jass.p( borderRadius('50px 0 0 50px') ); %> 
+  cursor: pointer;        
+  width: 100px;
+  height: 100px;      
+  padding-top: 25px;
+  padding-left: 30px;
+  background: <%= sideNavBg %>;
+  font-size: 3.5em;
+  color: <%= inverse %>;
+  position: relative;
+  top: 200px;
+  right: 0px;
+  z-index: 9999;
+}
+i {      
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type {
+  margin: -4.5em 5px 2.5em;  
+}
+.type span {
+  width: 25%;
+  margin-left: 30px;
+  text-indent: -30px;
+  display: block;
+  font-size: 1.8em;
+  color: <%= type %>;
+  line-height: 1.5em;
+  text-align: center;           
+}
+.list {
+  margin: 7px;  
+  cursor: pointer;  
+  <%= jass.p( borderBottom('1px dotted #bcbcbc') ); %>
+}
+.subhead {
+  width: 100%;
+  color: <%= primary %>;
+  line-height: 1.3em;
+  font-size: 1.5em;
+  margin: 0;
+}
+.subhead:active, 
+.subhead:hover, 
+.subhead:focus, 
+.subhead:visited, 
+.subhead.active {
+  color: <%= subhead %>;
+}
+small {
+  display: block;
+  color: <%= timeText %>;
+  text-align: right;
+  margin-bottom: 5px;
+  margin-top: 5px; 
+}
+
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+   
+.mobile.typeside {
+  padding-bottom: 40px !important;
+  margin: -75px 0 0 !important;
+}
+.mobile .sideNav {
+  visibility: visible !important;
+  top: 220px !important;
+  right: 90px !important;
+}
+.mobile .on{
+  padding: 0 40px !important;
+}
+.mobile .type {
+  margin-bottom: 4em;
+}
+.mobile span {
+  font-size: 3.5em;
+  line-height: 1.5em;
+}
+.mobile .list {  
+  <%= jass.p( borderBottom('5px dotted #bcbcbc') ); %>
+}
+.mobile .list:last-child {  
+  <%= jass.p( borderBottom('none') ); %>
+}
+.mobile .subhead {
+  font-size: 3em;
+  line-height: 2em;
+}
+.mobile small {
+  font-size: 2.5em;
+}
