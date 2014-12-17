@@ -23,8 +23,7 @@
 .breadcrumb > li.pull-right:before {
   content: "";
 }
-ul,ol {
-	margin-bottom: 14px;
+ul, ol {
     list-style: none;
     -webkit-padding-start: 0px;
 }
@@ -75,10 +74,10 @@ ul.item li h4 {
 	float: left;
 }
 small + p {
-   clear:both;
+   clear: both;
    margin-left: 30px;
 }
-.orange { 
+/* .orange { 
 	border-left: 5px solid #F5876E; 
 }
 .blue { 
@@ -90,5 +89,54 @@ small + p {
 .purple { 
 	border-left: 5px solid #988CC3; 
 }
-.gold { border-left: 5px solid #D8C86E; 
+.gold { 
+	border-left: 5px solid #D8C86E; 
+}
+.springGreen {
+	border-left: 5px solid #47C081;
+}
+.yellow {
+	border-left: 5px solid #FFA500;
+}
+.cyan {
+	border-left: 5px solid #7FFFD4;
+} */
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile .breadcrumb li {
+	font-size: 32px;
+}
+.mobile .btn {
+    font-size: 24px;
+    padding: 0px 0px 14px 14px;
+}
+.mobile label {
+	font-size: 28px;	
+}
+.mobile .alignL {
+	margin-top: 12px;
+}
+.mobile .alignR {
+	margin-top: 5px;
+}
+.mobile ul.item li {
+	padding: 20px 7px 20px 20px;
+	border-left-width: 10px;
+}
+.mobile ul.item li a { 
+	font-size: 32px;
+}
+.mobile ul.item li a h4 {
+	font-size: 42px;
+}
+.mobile small {
+	font-size: 85%;
+	margin-top: 20px;
+}
+.mobile small + p {
+   margin-left: 46px;
+   line-height: 42px;
 }

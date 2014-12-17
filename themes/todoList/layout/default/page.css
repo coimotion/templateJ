@@ -2,7 +2,7 @@
 body {
 	background: #000;	
 	color: #111;
-	padding: 18px 18px 18px 18px;
+	padding: 0;
 	-webkit-font-smoothing: antialiased;
 	cursor: default;
     font-size: 14px;
@@ -13,7 +13,7 @@ body {
 	margin: auto;
 	padding: 0px;
 	width: 640px;
-	height: 960px;
+	height: 950px;
 	background: #fff;
 }
 #pgHead, #pgFooter, #pgContent {

@@ -25,11 +25,9 @@
     </script>
     <script type="text/javascript">
     $(document).ready(function() {
-      function c1(){
-        if ('<%=bi.client.category%>' === 'mobile' || '<%=bi.client.category%>' === 'tablet') {     
-          $('#pgContainer').addClass('mobile');
-        }
-       } 
+        if ('<%=bi.client.category%>' == 'mobile' || '<%=bi.client.category%>' == 'tablet') {     
+          $('#pgContainer').addClass('mobile')
+        }       
     });
     </script>
   </head>
