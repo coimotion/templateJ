@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title><%=ctx.title%></title>
+    <meta name="description" content="<%ctx.description%>" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="">
+    <% includeCss(); %>
+    <% includeJs(); %>
+
+    <style type="text/css">
+      <% css(); %>
+    </style>
+    <script type="text/javascript">
+  	<!--
+  	<% js(); %>
+  	$(document).ready(function() {
+      	$.ajaxSetup ({
+        		// Disable caching of AJAX responses
+        		cache: false
+      	});
+  	   __.initPage();
+  	});
+  	-->
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      function c1(){
+        if ('<%=bi.client.category%>' === 'mobile' || '<%=bi.client.category%>' === 'tablet') {     
+          $('#pgContainer').addClass('mobile');
+        }
+       } 
+    });
+    </script>
+  </head>
+
+  <body>
+	<div id="pgContainer">
+  	<div id="pgHead"><% region('./head'); %></div>      
+  	<div id="pgContent"><% block(); %></div>
+  	<div id="pgFooter"><% region('./footer'); %></div>
+	</div>  
+  </body>
+</html>

@@ -1,0 +1,43 @@
+/* Add css rules here that are valid for the whole page */
+body {
+	background: #000;	
+	color: #111;
+	padding: 18px 18px 18px 18px;
+	-webkit-font-smoothing: antialiased;
+	cursor: default;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Segoe UI","Helvetica",Garuda,Arial,sans-serif; 	
+}
+#pgContainer {
+	margin: auto;
+	padding: 0px;
+	width: 640px;
+	height: 960px;
+	background: #fff;
+}
+#pgHead, #pgFooter, #pgContent {
+	padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+#pgFooter {
+	clear: both;
+}
+* {
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+/* =======================================
+   Mobile STYLE
+   ======================================= */
+
+.mobile#pgContainer {
+	width: 100% !important;
+	height: 100% !important;
+}
+
