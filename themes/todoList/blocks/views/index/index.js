@@ -6,7 +6,7 @@ ctrl.startup = function() {
 };
 
 function liClick() {
-    ctrl.sel('.itemNum').click(function() {	
-		$(".itemNum").remove()
-	}
+    ctrl.sel('.itemNum #close').click(function() {	
+		$(this).parents('.itemNum').remove();
+	});
 };

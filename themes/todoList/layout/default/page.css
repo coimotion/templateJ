@@ -13,7 +13,8 @@ body {
 	margin: auto;
 	padding: 0px;
 	width: 640px;
-	height: 950px;
+	height: 930px;
+	overflow: hidden;
 	background: #fff;
 }
 #pgHead, #pgFooter, #pgContent {

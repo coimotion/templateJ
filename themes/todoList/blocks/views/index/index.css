@@ -112,14 +112,13 @@ small + p {
 .mobile .btn {
     font-size: 24px;
 }
-.mobile label {
-	font-size: 28px;	
-}
 .mobile .alignL {
-	margin-top: 12px;
+	margin-top: 10px;
+	font-size: 48px !important;
 }
 .mobile .alignR {
 	margin-top: 5px;
+	font-size: 30px;
 }
 .mobile ul.item li {
 	padding: 20px 7px 20px 20px;
