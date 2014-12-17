@@ -1,6 +1,12 @@
 ctrl.startup = function() {
-	ctrl.sel('.btn-insert').click(function() {	
-		alert('li');
-		// ctrl.sel('.item li').hide();
-	}
+	liClick()
+};
+
+function liClick() {
+	var j = $('.itemNum').index();
+	$('#close').click(function(event){ 	
+		//alert('ok')
+		console.log("ok")
+		//ctrl.sel('.itemNum').slideOut(300);
+	};
 }
