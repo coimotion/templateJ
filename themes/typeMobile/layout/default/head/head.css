@@ -35,7 +35,7 @@ img {
 	-webkit-appearance: none;
 	border-radius: 0;
 	display: block;
-	padding: 0.5em 1em;
+	padding: 0.5em 0em;
 	font-size: 1.2em;
 	background: #61A8DC;
 	border: 0px solid #61A8DC;
