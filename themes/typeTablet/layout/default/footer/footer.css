@@ -1,0 +1,29 @@
+p {
+	font-size: 1em;
+	margin-top: 3em;
+	color: rgba(0,0,0,0.5);
+}
+.inline-list {
+	margin: 0 auto !important;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+}
+.inline-list>li {
+	list-style: none;
+	float: left;
+	margin-left: 2em;
+	display: block;
+}
+.inline-list>li:first-child {
+	margin-left: 0px;
+}
+.inline-list>li>* {
+	display: block;
+}
+a {
+	color: #61A8DC;
+	text-decoration: none;
+	line-height: inherit;
+}

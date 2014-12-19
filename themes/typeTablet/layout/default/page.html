@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta charset="utf-8">
+    <meta name="description" content="<%ctx.description%>" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title><%=ctx.title%></title>
+    <link rel="shortcut icon" href="">
+    <% includeCss(); %>
+    <% includeJs(); %>
+
+    <style type="text/css">
+      <% css(); %>
+    </style>
+    <script type="text/javascript">
+  	<!--
+  	<% js(); %>
+  	$(document).ready(function() {
+      	$.ajaxSetup ({
+        		// Disable caching of AJAX responses
+        		cache: false
+      	});
+  	   __.initPage();
+  	});
+  	-->
+    </script>
+  </head>
+
+  <body>
+	<div id="pgContainer">
+  	<div id="pgHead"><% region('./head'); %></div>      
+  	<div id="pgContent"><% block(); %></div>
+  	<div id="pgFooter"><% region('./footer'); %></div>
+	</div>
+  </body>
+</html>
