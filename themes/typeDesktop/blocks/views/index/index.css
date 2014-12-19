@@ -1,0 +1,9 @@
+.row + .row {
+	margin-top: 2em;
+}
+img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
