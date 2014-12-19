@@ -3,12 +3,12 @@ img {
 	margin: 0 auto;
 }
 .logo {
-	margin: 0.2em auto 0;
-	width: 60%;
+	margin: 0.2em auto;
+	width: 40%;
 }
 .button-group {
 	list-style: none;
-	margin: 0.4em auto 3em;
+	margin: 0 auto 3em;
 }
 .button-group>li {
 	margin: 0;
@@ -35,10 +35,102 @@ img {
 	-webkit-appearance: none;
 	border-radius: 0;
 	display: block;
-	padding: 0.5em 0em;
+	padding: 0.25em 0em;
 	font-size: 1.2em;
 	background: #61A8DC;
 	border: 0px solid #61A8DC;
 	color: #FFFFFF;
 	transition: background-color 300ms ease-out;
+}
+/*banner*/
+.orbit-container {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	background: none;
+}
+.orbit-slides {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	-webkit-transform: translateZ(0);
+}
+.orbit-slidesr > * {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-left: 100%;
+	z-index: 2;
+}
+img.banner {
+	display: block;
+	max-width: 100%;
+}
+.prev, .next {
+	position: absolute; 
+	top: 15%;
+	z-index: 10; 
+	opacity: 1; 
+	width: 70px;
+	height: 70px; 
+	border-radius: 35px;
+	background: rgba(255, 255, 255, .3);
+	-webkit-transition-duration: 1s; 
+	-moz-transition-duration: 1s; 
+	-o-transition-duration: 1s; 
+	-ms-transition-duration: 1s; 
+	transition-duration: 1s; 
+}
+.prev {
+	left: -50px; 
+    background-position: 40px center;
+}
+.next {
+	right: -50px; 
+    background-position: -120px center;
+}
+.orbit-slide-number {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: transparent;
+	z-index: 10;
+}
+.orbit-bullets-container {
+	text-align: center;
+}
+ol.orbit-bullets {
+	margin: 0 auto 20px;
+	overflow: hidden;
+	position: relative;
+	top: 10px;
+	float: none;
+	text-align: center;
+	display: block;
+}
+ol.orbit-bullets li {
+	cursor: pointer;
+	display: inline-block;
+	width:  0.6em;
+	height: 0.6em;
+	background: #CCCCCC;
+	float: none;
+	margin-right: 6px;
+	border-radius: 1000px;
+}
+.orbit-bullets li.active {
+	background: #999999;
+}
+.orbit-bullets li:last-child {
+	margin-right: 0;
+}
+hr {
+	border: solid #DDDDDD;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 0 0 1em;
+	height: 0;
 }
