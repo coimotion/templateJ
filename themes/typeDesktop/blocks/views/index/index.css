@@ -7,3 +7,6 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+img + h4 {
+	margin-top: 1em;
+}
