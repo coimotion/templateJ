@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-sm-12 text-center">
-      <h1><img src="type/400x100_logo.gif" class="logo"></h1>
+      <img src="type/400x100_logo.gif" class="logo">
     </div>
     <div class="text-center">
       <ul class="button-group">
@@ -13,8 +13,33 @@
 </div>
 
 <div class="row">
-    <div class="col-sm-12 text-center">
-      <img src="type/1024x400.gif" class="img-responsive"> 
-      <hr>
+  <div class="col-sm-12">
+    <div class="orbit-container">
+      <ul class="example-orbit orbit-slides" data-orbit="">
+        <li class="active" style="z-index: 4; margin-left: 0%;">
+          <img src="type/1024x400.gif" class="banner">
+        </li>
+        <li style="display: none">
+          <img src="type/1024x400_2.gif" class="banner">
+        </li>
+        <li style="display: none">
+          <img src="type/1024x400_3.gif" class="banner">
+        </li>
+      </ul>
+      <a href="#"><img src="type/prev.png" class="prev"></a>
+      <a href="#"><img src="type/next.png" class="next"></a>
+      <div class="orbit-timer paused"><span></span>
+        <div class="orbit-progress" style="width: 0%;"></div>
+      </div>
+      <div class="orbit-slide-number"><span>1</span> of <span>3</span></div>
+      <div class="orbit-bullets-container">
+        <ol class="orbit-bullets">
+          <li data-orbit-slide="0" class="active"></li>
+          <li data-orbit-slide="1" class=""></li>
+          <li data-orbit-slide="2" class=""></li>
+        </ol>
+      </div>
     </div>
+  </div>
 </div>
+<hr>
