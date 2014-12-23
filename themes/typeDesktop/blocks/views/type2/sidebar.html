@@ -1,0 +1,19 @@
+<div class="sidebar">    
+    <div class="type">
+		<span><%=ph.overviw%></span>
+	</div>
+	<% for (var i in value.list) {
+		var  item = value.list[i],
+			 createTime = item.createTime,
+			 idx = createTime.indexOf('T');
+		createTime = createTime.substring(0, idx);
+	%>
+	<div class="list">
+		<a href="/coserv/doc/<%=item.ngID%>?_loc=<%=bi.locale%>" class="page<%=item.ngID%>">
+			<div class="subhead"><%=item.title%></div>
+			<small><%=createTime%></small>
+		</a>			
+	</div>
+	<% } %>
+
+</div>

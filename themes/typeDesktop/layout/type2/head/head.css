@@ -1,0 +1,38 @@
+.logo {
+	margin-top: 0.2em;
+}
+.right {
+	float: right!important;
+}
+.button-group {
+	list-style: none;
+	margin: 0.4em 0 0;
+	left: 0;
+}
+.button-group>li {
+	margin: 0 -2px;
+	display: inline-block;
+}
+.button-group>li>button, 
+.button-group>li .button {
+	border-left: 1px solid rgba(255,255,255,0.5);
+}
+.button {
+	cursor: pointer;
+	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 1.25rem;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	border-radius: 0;
+	display: inline-block;
+	padding: 1rem 2rem 1.0625rem 2rem;
+	font-size: 1.2em;
+	background: #61A8DC;
+	border: 0px solid #61A8DC;
+	color: #FFFFFF;
+	transition: background-color 300ms ease-out;
+}

@@ -1,3 +1,6 @@
 {
-	"/index": {"id": "no","title" : "Desktop"}
+	"/index"   : {"id": "no", "title" : "Desktop"},
+	"/type1"   : {"id": "no", "title" : "Desktop"},
+	"/type2"   : {"id": "no", "title" : "Desktop"},
+	"/sidebar" : {"id": "no"}
 }
