@@ -1,3 +1,4 @@
 {
-	"/index": {"id": "no","title" : "Mobile"}
+	"/index": {"id": "no", "title" : "Mobile"},
+	"/type1": {"id": "no", "title" : "Mobile"}
 }
