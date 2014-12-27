@@ -1,0 +1,37 @@
+.logo {
+	margin: 0.5em auto;
+}
+.button-group {
+	list-style: none;
+	margin: 0.5em auto;
+	left: 0;
+}
+.button-group>li {
+	margin: 0;
+	display: inline-block;	
+}
+.button-group>li>.button {
+	border-left: 1px solid #ddd;
+}
+.button-group>li>.button:last-child {
+	/*border-right: 1px solid #ddd;*/
+}
+.button {
+	cursor: auto;	
+	font-weight: normal;
+	line-height: normal;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	border-radius: 0;
+	display: inline-block;
+	padding: 1em 1em 0.5em;
+	font-size: 2.4em;
+	border: 0px solid #61A8DC;
+	color: #666;
+	transition: color 300ms ease-out;
+}
+.button:hover {
+	border-bottom: 5px solid #91BAD0;
+}
