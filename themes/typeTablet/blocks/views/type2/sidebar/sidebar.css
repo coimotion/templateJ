@@ -1,0 +1,112 @@
+*, *:hover, *:focus {
+  text-decoration: none;
+}
+.sidebar{ 
+  float: left; 
+  width: 230px;
+  padding: 0px;
+  margin: 15px;
+   
+}  
+.blue, .gray{
+    float: left;
+    clear: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.blue { 
+  width: 70%;
+  border-top: 4px solid #8EC0E6;
+}
+.gray {
+  width: 30%;
+  border-top: 4px solid #eee;
+}
+.type {
+  text-indent: 1em;
+  clear: both;
+}  
+.type span {
+    font-size: 2em;
+    line-height: 2.5em;
+    font-weight: bold;
+    color: #5D93BF;    
+}
+.author {
+  width: 60%;
+  display: block;
+  margin: 0 auto 10px;
+}
+ul.item {
+  background: #fff;
+}
+.itemA {
+  text-align: center;
+}
+ul{
+    list-style: none outside;
+    -webkit-padding-start: 0px;
+    background: #f6f6f6;
+    margin-bottom: 2em;
+}
+ul li {
+  color: #626262;  
+  margin: 0;
+  height: auto;  
+}
+li.itemB {
+  border-bottom: 2px solid #fff;
+  padding: 5px 10px 30px;
+  clear: both;
+}
+ul li.itemB:before {
+  content: "»";
+  font-size: 1.4em;
+  color:#2781B6;
+}
+.subtitle {   
+  font-size: 1.2em;
+  line-height: 1.5em;  
+}      
+ul li.active *,
+ul li:active *,
+ul li:hover *, 
+ul li:focus *,
+ul li:visited *,
+.subhead:hover {
+    color: #2781B6;    
+}
+small {
+  float: right;
+  display: inline-block;
+  line-height: 2em;
+}
+small,
+ul li.active small,
+ul li:active small,
+ul li:hover small, 
+ul li:focus small,
+ul li:visited small{
+  color: #aaa;
+}
+.hot {
+  line-height: normal;
+  font-size: 1em;
+  background: #f16261;
+  color: #fff;
+  padding: 0 5px;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+}
+ul li:hover .hot {
+  color: #fff;
+}
+li.itemC {
+  padding: 15px 15px 5px;
+}
+.subhead {
+  color: #626262;
+  line-height: 2.5em;
+  padding-left: 2em;
+}

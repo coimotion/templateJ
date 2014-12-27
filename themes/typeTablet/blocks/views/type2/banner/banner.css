@@ -1,0 +1,25 @@
+.orbit-container {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	background: none;
+}
+.orbit-slides {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	-webkit-transform: translateZ(0);
+}
+.orbit-slidesr > * {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-left: 100%;
+	z-index: 2;
+}
+img.banner {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+}

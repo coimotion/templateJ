@@ -1,0 +1,67 @@
+<div class="sidebar">
+	<!-- author -->
+	<hr class="blue"></hr>
+	<hr class="gray"></hr>
+    <div class="type">
+		<span><%=value.list[0].about%></span>
+	</div>
+	<ul class="item">
+		<a href="#">
+			<li class="itemA">					
+			  	<img src="<%=value.list[0].pic%>" class="author">
+			  	<span class="subtitle"><%=value.list[0].author%></span> 	
+			</li>
+		</a>			
+
+	</ul>
+
+	<!-- article -->
+	<hr class="blue"></hr>
+	<hr class="gray"></hr>
+    <div class="type">
+		<span><%=value.list[0].title%></span>
+	</div>
+	<ul>	
+		<a href="#">
+			<li class="itemB">					
+			  	<span class="subtitle"><%=value.list[0].subtitle%></span>			  	
+			  	<small><%=value.list[0].time%></small>
+			  	<!-- <span class="hot">Hot</span> -->			  	
+			</li>
+		</a>
+		<a href="#">
+			<li class="itemB">					
+			  	<span class="subtitle"><%=value.list[1].subtitle%></span>			  	
+			  	<small><%=value.list[1].time%></small>			  	
+			</li>
+		</a>
+		<a href="#">
+			<li class="itemB">					
+			  	<span class="subtitle"><%=value.list[2].subtitle%></span>			  	
+			  	<small><%=value.list[2].time%></small>			  	
+			</li>
+		</a>
+	</ul>
+
+	<!-- travel -->
+	<hr class="blue"></hr>
+	<hr class="gray"></hr>
+    <div class="type">
+		<span><%=value.list[0].head%></span>
+	</div>
+	<ul>	
+		<a href="#">
+			<li class="itemC">					
+			  	<img src="<%=value.list[0].img%>" class="img-responsive">			  	
+			  	<span class="subhead"><%=value.list[0].subhead%></span>
+			</li>
+		</a>
+		<a href="#">
+			<li class="itemC">					
+			  	<img src="<%=value.list[1].img%>" class="img-responsive">			  	
+			  	<span class="subhead"><%=value.list[1].subhead%></span>
+			</li>
+		</a>
+	</ul>
+</div>
+

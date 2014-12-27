@@ -1,0 +1,31 @@
+.content {
+	margin-left: 15px;
+	padding:15px;
+	background: #111;
+	color: #fff;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+	min-width: 90%;
+	max-width: 100%;
+	height: auto;
+}
+img + h3 {
+	margin-top: 1em;
+}
+h3 {
+	font-size: 2em;
+	color: #B4E1E4;
+}
+hr {
+	clear: both;
+	margin: 2em 0;
+}
+hr:last-child {
+	border: none;
+}
+p {
+	font-size: 1.5em;
+}
