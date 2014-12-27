@@ -1,0 +1,111 @@
+*, *:hover, *:focus {
+  text-decoration: none;
+}
+.sidebar{ 
+  float: left; 
+  width: 230px;
+  padding: 0px;
+  margin: 15px;
+   
+}  
+.blue, .gray{
+    float: left;
+    clear: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.blue { 
+  width: 60%;
+  border-top: 5px solid #8EC0E6;
+}
+.gray {
+  width: 40%;
+  border-top: 5px solid #eee;
+}
+.author {
+  width: 60%;
+  display: block;
+  margin: 0 auto 10px;
+}
+ul.item {
+  background: #fff;
+}
+.itemA {
+  text-align: center;
+}
+.type {
+  text-indent: 1em;
+  clear:both;
+}  
+.type span {
+    font-size: 1.5em;
+    line-height: 2.5em;
+    font-weight: bold;
+    color: #5D93BF;    
+}
+ul{
+    list-style: none outside;
+    -webkit-padding-start: 0px;
+    background: #f6f6f6;
+    margin-bottom: 2em;
+}
+ul li {
+  color: #626262;  
+  margin: 0;
+  height: auto;  
+}
+li.itemB {
+  border-bottom: 2px solid #fff;
+  padding: 5px 15px 30px;
+  clear: both;
+}
+ul li.itemB:before {
+  content: "»";
+  color:#2781B6;
+}
+.subtitle {   
+  font-size: 1em;
+  line-height: 0.7em;  
+}      
+ul li.active *,
+ul li:active *,
+ul li:hover *, 
+ul li:focus *,
+ul li:visited *,
+.subhead:hover {
+    color: #2781B6;    
+}
+small {
+  float: right;
+  line-height: 1.5em;
+  display: inline-block;
+}
+small,
+ul li.active small,
+ul li:active small,
+ul li:hover small, 
+ul li:focus small,
+ul li:visited small{
+  color: #aaa;
+}
+.hot {
+  line-height: normal;
+  font-size: 10px;
+  background: #f16261;
+  color: #fff;
+  padding: 0 5px;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+ul li:hover .hot {
+  color: #fff;
+}
+li.itemC {
+  padding: 15px 15px 5px;
+}
+.subhead {
+  color: #626262;
+  line-height: 2.5em;
+  padding-left: 0.2em;
+}
