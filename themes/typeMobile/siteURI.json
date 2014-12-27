@@ -1,4 +1,8 @@
 {
 	"/index": {"id": "no", "title" : "Mobile"},
-	"/type1": {"id": "no", "title" : "Mobile"}
+	"/type1": {"id": "no", "title" : "Mobile"},
+	"/type2/index"  : {"id": "no", "title" : "Mobile"},
+	"/type2/header" : {"id": "no"},
+	"/type2/banner" : {"id": "no"},
+	"/type2/sidebar" : {"id": "no"}
 }
