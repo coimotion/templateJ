@@ -1,0 +1,28 @@
+.content {
+	margin: 20px 0;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	min-width: 90%;
+	max-width: 100%;
+	height: auto;
+}
+.panel {
+	border: 1px solid #d8d8d8;
+	margin-bottom: 1.25em;
+	padding: 0.5em 1em;
+	background: #f2f2f2;
+}
+h4 {
+	line-height: 24px;
+	color: #aaa;
+	font-weight: normal;
+}
+.panel:hover h4 {
+	color: #333;
+}
+.panel h5 {
+	color: #FF0000;
+	text-align: right;
+}

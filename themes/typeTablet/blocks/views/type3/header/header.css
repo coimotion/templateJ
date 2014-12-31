@@ -1,0 +1,43 @@
+.logo {
+	margin: 0.7em 2em;
+}
+.search {
+	margin-right: 0px;
+}
+.right {
+	float: right;
+}
+ul li {
+	list-style-type: none;
+}
+.box {
+  width:250px;
+  height: 25px;
+  margin:20px 32px 0;
+  padding:20px;
+  color: #aaa;
+  background: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; 
+  position: relative; 
+  font-size: 16px;
+  outline: none;
+}
+i {
+	position: absolute;
+	right: 60px;
+	top: 32px;
+	z-index: 1;
+	color: #ddd;
+}
+i:hover {
+  color: #008CBA;
+}
+::-webkit-input-placeholder { color:#C5C5C5; } /* chrome */
+::-moz-placeholder { color:#C5C5C5; } /* firefox 19+ */
+:-ms-input-placeholder { color:#C5C5C5; } /* ie */
+input:-moz-placeholder { color:#C5C5C5; } /* firefox */

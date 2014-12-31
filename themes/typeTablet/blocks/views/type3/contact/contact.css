@@ -1,0 +1,28 @@
+*:hover, *:focus{
+	text-decoration:none;
+}
+h4, p {
+	padding-left: 20px;
+}
+.btn-confirm {
+	color: #fff;
+	background:#21abc4;
+	border: none;
+	min-width: 68px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.btn-confirm:hover {
+	background:#1D94A9;
+}
+img {
+	display: block;
+	margin: auto;
+}
+form {
+	margin-top: 20px;
+}
+textarea {
+	border-color: #ccc;
+}

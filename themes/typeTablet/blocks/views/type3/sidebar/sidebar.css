@@ -1,0 +1,30 @@
+*:hover, *:focus {
+  text-decoration: none;
+}
+h3 {
+  color: #626262;    
+  margin: 0 auto 1em;
+  text-align: center;
+  font-weight: normal;
+}
+h4 {
+  font-weight: normal;
+}
+ul{
+    list-style: none outside;
+    -webkit-padding-start: 0px;
+    margin-bottom: 2em;
+}
+li {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+  clear: both;
+  color: #008CBA;  
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+li:hover {
+  color: #626262;
+}
