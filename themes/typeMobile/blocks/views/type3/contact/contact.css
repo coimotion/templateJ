@@ -1,0 +1,38 @@
+*:hover, *:focus{
+	text-decoration:none;
+}
+.content {
+	margin: 3em 0;
+}
+.btn-confirm {
+	color: #fff;
+	background:#21abc4;
+	border: none;
+	min-width: 25%;
+	font-size: 2em;
+	float: right;
+	margin-top: 1em;
+	margin-right: 15px;
+}
+.btn-confirm:hover {
+	background: #1D94A9;
+}
+h3,p{
+	margin: 2em auto;
+}
+img {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+form {
+	margin-top: 3em;
+	font-size: 2em;
+}
+input {
+	font-size: 2em;
+}
+textarea {
+	border-color: #ccc;
+	width: 100%;
+}
