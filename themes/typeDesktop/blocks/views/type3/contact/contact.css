@@ -26,3 +26,6 @@ textarea {
 	border-color: #ccc;
 	width: 100%;
 }
+a + p {
+	margin-top: 1em;
+}
