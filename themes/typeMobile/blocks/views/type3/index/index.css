@@ -1,3 +1,6 @@
+*:hover, *:focus {
+	text-decoration: none;
+}
 .content {
 	margin: 3em 0;
 }
@@ -10,19 +13,21 @@ img {
 }
 .panel {
 	border: 1px solid #d8d8d8;
-	margin-bottom: 2.5em;
-	padding: 0.5em 1em;
+	border-radius: 0 0 4px 4px;
+	margin:0 auto 3em;
+	padding: 1em 2em 0;
 	background: #f2f2f2;
-}
-h3 {
-	line-height: 24px;
-	color: #aaa;
 	font-weight: normal;
+	width: 90%;
 }
-.panel:hover h3 {
+.panel h1 {
+	line-height: 24px;
+	color: #aaa;	
+}
+.panel:hover h1 {
 	color: #333;
 }
-.panel h4 {
+.panel h3 {
 	color: #FF0000;
 	text-align: right;
 }

@@ -1,5 +1,6 @@
 .logo {
 	margin: 0.7em auto;
+  display: block;
 }
 .search {
 	margin: 0.7em auto;
@@ -36,6 +37,9 @@ i {
 }
 i:hover {
   color: #008CBA;
+}
+input {
+  font-size: 2em;
 }
 ::-webkit-input-placeholder { color:#C5C5C5; } /* chrome */
 ::-moz-placeholder { color:#C5C5C5; } /* firefox 19+ */
