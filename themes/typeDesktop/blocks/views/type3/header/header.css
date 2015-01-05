@@ -3,6 +3,7 @@
 }
 .search {
 	margin-right: 0px;
+  float: right;
 }
 .center {
 	margin: auto;
