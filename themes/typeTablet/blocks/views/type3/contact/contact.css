@@ -1,8 +1,8 @@
 *:hover, *:focus{
 	text-decoration:none;
 }
-h4, p {
-	padding-left: 20px;
+.content {
+	padding: 20px;
 }
 .btn-confirm {
 	color: #fff;
@@ -11,18 +11,32 @@ h4, p {
 	min-width: 68px;
 	float: right;
 	margin-top: 20px;
-	margin-right: 15px;
+    font-size: 1.5em;
 }
 .btn-confirm:hover {
 	background:#1D94A9;
 }
 img {
 	display: block;
-	margin: auto;
 }
 form {
 	margin-top: 20px;
 }
+.control-label, 
+.form-control {
+	font-size: 1.2em;
+}
 textarea {
 	border-color: #ccc;
+	width: 100%;
+}
+.map {
+	margin-left: -15px;
+}
+h4{	
+	font-size: 3em;
+}
+p {	
+	font-size: 1.5em;
+	margin-top: 0.5em;
 }
